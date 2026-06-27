@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV — Anzi Wang</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <p class="name">Anzi Wang</p>
+    <nav class="site-nav">
+      <a href="index.html#about">About</a>
+      <a href="index.html#publications">Publications</a>
+      <a href="cv.html">CV</a>
+      <a href="index.html#gallery">Gallery</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section>
+    <h2>Curriculum Vitae</h2>
+    <!-- TODO: add cv.pdf to the repo root and update the link below -->
+    <div class="cv-actions">
+      <a href="cv.pdf">Download CV (PDF)</a>
+    </div>
+    <p class="placeholder-note">Add your cv.pdf file to this repo's root folder so the link above works.</p>
+  </section>
+</main>
+
+<footer class="wrap">
+  <p>&copy; <span id="year"></span> Anzi Wang</p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

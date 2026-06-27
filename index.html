@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anzi Wang</title>
+<meta name="description" content="Personal academic website of Anzi Wang.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <p class="name">Anzi Wang</p>
+    <p class="title"><!-- TODO: replace with your role, e.g. "PhD Student, Department of X, Northwestern University" -->PhD Student, Northwestern University</p>
+    <nav class="site-nav">
+      <a href="#about">About</a>
+      <a href="#publications">Publications</a>
+      <a href="cv.html">CV</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section id="about">
+    <h2>About</h2>
+    <div class="profile">
+      <!-- TODO: replace photo.jpg in assets/ with your headshot -->
+      <img src="assets/photo.jpg" alt="Anzi Wang" onerror="this.style.display='none'">
+      <div>
+        <p>
+          <!-- TODO: write a 2-4 sentence bio: who you are, your research focus, and current institution/lab -->
+          I am a researcher at Northwestern University interested in [your research area].
+          My work focuses on [brief description of your research interests and goals].
+        </p>
+        <p class="placeholder-note">Edit this paragraph in index.html to introduce yourself.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="publications">
+    <h2>Publications</h2>
+    <ul class="pub-list">
+      <!-- TODO: replace with your real publications, newest first -->
+      <li>
+        <div class="pub-title">Paper Title Goes Here</div>
+        <div class="pub-meta">Author One, Author Two, <strong>Anzi Wang</strong> — Conference/Journal Name, Year</div>
+        <div class="pub-links">
+          <a href="#">PDF</a>
+          <a href="#">DOI</a>
+          <a href="#">arXiv</a>
+        </div>
+      </li>
+      <li>
+        <div class="pub-title">Another Paper Title</div>
+        <div class="pub-meta"><strong>Anzi Wang</strong>, Author Two — Conference/Journal Name, Year</div>
+        <div class="pub-links">
+          <a href="#">PDF</a>
+          <a href="#">Code</a>
+        </div>
+      </li>
+    </ul>
+    <p class="placeholder-note">Add a new &lt;li&gt; block for each publication, newest first.</p>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <!-- TODO: add your own images to assets/gallery/ and reference them here -->
+      <img src="assets/gallery/1.jpg" alt="" onerror="this.style.display='none'">
+      <img src="assets/gallery/2.jpg" alt="" onerror="this.style.display='none'">
+      <img src="assets/gallery/3.jpg" alt="" onerror="this.style.display='none'">
+    </div>
+    <p class="placeholder-note">Drop images into assets/gallery/ and add an &lt;img&gt; tag for each one.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <ul class="link-list">
+      <!-- TODO: fill in your real links -->
+      <li>Email: <a href="mailto:anziwang2030@u.northwestern.edu">anziwang2030@u.northwestern.edu</a></li>
+      <li>Google Scholar: <a href="#">your-scholar-profile</a></li>
+      <li>GitHub: <a href="https://github.com/anziw">github.com/anziw</a></li>
+      <li>LinkedIn: <a href="#">your-linkedin-profile</a></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="wrap">
+  <p>&copy; <span id="year"></span> Anzi Wang</p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
